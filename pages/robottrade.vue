@@ -5,14 +5,24 @@
 
         <div class="w-full lg:w-5/6">
             <div class="flex flex-wrap  lg:-mx-2 xl:-mx-2"> 
+<<<<<<< Updated upstream
                 <div class="w-full   lg:my-2 lg:px-2 lg:w-full xl:my-2 xl:px-2 xl:w-1/2">
                     <div class="h-full shadow-lg bg-white text-green-500 text-lg text-center  -bottom-0 rounded-lg ">
+=======
+                <div class="w-full  pl-5  lg:my-2 lg:px-2 lg:w-full xl:my-2 xl:px-2 xl:w-1/2">
+                    <div class="h-full p-3 shadow-lg bg-white text-green-500 text-lg text-center  -bottom-0 rounded-lg ">
+>>>>>>> Stashed changes
                         <Robottrade-categoryrobot></Robottrade-categoryrobot>
                     </div>
                 </div>
 
+<<<<<<< Updated upstream
                 <div class="w-full   lg:my-2 lg:px-2 lg:w-full xl:my-2 xl:px-2 xl:w-1/2">
                     <div class="h-full shadow-lg bg-white text-green-500 text-lg  text-center rounded-lg">
+=======
+                <div class="w-full lg:my-2 lg:px-2 lg:w-full xl:my-2 xl:px-2 xl:w-1/2">
+                    <div class="h-full p-3  shadow-lg bg-white text-green-500 text-lg  text-center rounded-lg">
+>>>>>>> Stashed changes
                         <Robottrade-categorycoin></Robottrade-categorycoin>
                     </div>
                 </div>

@@ -5,6 +5,7 @@
         <div class="flex">
             <div class=" w-5/6">
                 <div class="flex w-full h-full">
+<<<<<<< Updated upstream
                     <div class="w-11/12"> 
                         <v-slide-group show-arrows class="w-full ">
                             <v-slide-item v-for="n,index in 4" :key="index" style="width:350px;">
@@ -23,19 +24,55 @@
                                 <div class=" ml-2"  v-else>
                                     <div class="h-full  group relative flex cursor-pointer justify-between rounded-xl before:absolute before:inset-y-0 before:right-0 before:w-1/2 before:rounded-r-xl before:bg-gradient-to-r before:from-transparent before:to-amber-600 before:opacity-0 before:transition before:duration-500 hover:before:opacity-100">
                                     
+=======
+                    <div class="w-11/12">
+                        <v-slide-group show-arrows class="w-full ">
+                            <v-slide-item v-for="n,index in 4" :key="index" style="width:350px;">
+                                <div class=" ml-4 pb-5" v-if="test[index]">
+                                    <div class="flex cursor-pointer  rounded-xl bg-white shadow-lg ">
+                                        <img class="rounded-full w-20 h-20 m-2 mt-3" src="https://i.pinimg.com/originals/41/53/7d/41537d55a8ab360ad9300060579a8287.gif" alt="">
+                                        <div class="relative  space-y-1 p-4">
+                                            <h4 class="text-lg text-green-500">Rebalance</h4>
+                                            <div class="relative h-6 text-green-400 text-sm">
+                                                <span class="transition duration-300 group-hover:invisible group-hover:opacity-0">UID: 12234123</span>
+
+                                            </div>
+                                        </div>
+                                        <div class="flex flex-col p-3 ">
+                                            <v-chip class="m-1 " color="#4ade80" label><span class="text-sm p-2 text-white">connect</span></v-chip>
+                                            <v-chip class="m-1 " color="#4ade80" label><span class="text-sm p-2 text-white">working</span></v-chip>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" ml-2" v-else>
+                                    <div class="h-full  group relative flex  justify-between rounded-xl before:absolute before:inset-y-0 before:right-0 before:w-1/2 before:rounded-r-xl before:bg-gradient-to-r before:from-transparent before:to-amber-600 before:opacity-0 before:transition before:duration-500 ">
+
+>>>>>>> Stashed changes
                                     </div>
                                 </div>
                             </v-slide-item>
                         </v-slide-group>
+<<<<<<< Updated upstream
 
                     </div> 
                     <div class="w-1/12 flex flex-col">
                         <v-btn outlined x-small class="m-1" fab color="success"><v-icon>mdi-plus </v-icon></v-btn>
                         <v-btn outlined x-small class="m-1" fab color="error"><v-icon>mdi-minus </v-icon></v-btn>
+=======
+                    </div>
+                    <div class="w-1/12 flex flex-col pt-3">
+                        <v-btn outlined x-small class="m-1" fab color="success">
+                            <v-icon>mdi-plus </v-icon>
+                        </v-btn>
+                        <v-btn outlined x-small class="m-1" fab color="error">
+                            <v-icon>mdi-minus </v-icon>
+                        </v-btn>
+>>>>>>> Stashed changes
                     </div>
                 </div>
 
             </div>
+<<<<<<< Updated upstream
             <div class="w-1/6">
                 <div class="relative flex flex-col justify-end overflow-hidden rounded-b-xl ">
                     <div class="group relative flex cursor-pointer justify-between rounded-xl bg-amber-200 before:absolute before:inset-y-0 before:right-0 before:w-1/2 before:rounded-r-xl before:bg-gradient-to-r before:from-transparent before:to-amber-600 before:opacity-0 before:transition before:duration-500 hover:before:opacity-100">
@@ -49,7 +86,35 @@
                                         <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
+=======
+            <div class="w-1/2 lg:-ml-16">
+                <div class="flex flex-wrap overflow-hidden sm:-mx-px md:-mx-px lg:-mx-px xl:-mx-1">
+                    <div class=" ml-4 pb-5 flex ">
+                        <div class="flex  cursor-pointer  rounded-xl bg-white shadow-lg ">
+                            <div class="flex flex-row relative  space-y-1 p-3">
+                                <div class="flex gap-2 p-4 ">
+                                    <div class="pt-2 flex gap-2">
+                                         <span class="flex items-center transition ease-out duration-300 hover:bg-green-500 hover:text-white bg-green-200 w-8 h-8 px-1 rounded-full text-blue-400 cursor-pointer">
+                                    </span>
+                                    <span class="flex items-center transition ease-out duration-300 hover:bg-green-500 hover:text-white bg-green-200 w-8 h-8 px-1 rounded-full text-blue-400 cursor-pointer">
+                                        
+                                    </span>
+                                    <span class="flex items-center transition ease-out duration-300 hover:bg-green-500 hover:text-white bg-green-200 w-8 h-8 px-1 rounded-full text-blue-400 cursor-pointer">
+                                        
+                                    </span>
+                                    </div>
+                                   
+                                    <v-chip class="ma-2" color="primary" label>
+                                        <v-icon left>
+                                            mdi-account-circle-outline
+                                        </v-icon>
+                                        Basics
+                                    </v-chip>
+                                </div>
+
+>>>>>>> Stashed changes
                             </div>
+
                         </div>
                         <img class="absolute bottom-0 right-6 w-[6rem] transition duration-300 group-hover:scale-[1.4]" src="https://raw.githubusercontent.com/Meschacirung/Tailus-website/main/public/images/singers/Michael-Jackson.png" alt="">
                     </div>
@@ -62,35 +127,31 @@
 
         <div class="invisible md:visible  mt-4 ">
             <center>
-                <img class="h-9" src="~/static/png/logo.png" alt="">
+                PHILOBOT
             </center>
         </div>
 
-        <div class="p-6 flex flex-col items-center md:mt-6">
-
-            <vs-avatar class="shadow-xl" badge-position="top-right" :badge-color="tier.color" size="150" circle>
-                <img v-if="user.image_profile" :src="$url+user.image_profile" alt="">
-                <img v-else src="https://i.pinimg.com/originals/4a/6a/cb/4a6acb8ab84a58ca85ef817b02de7067.jpg" alt="">
-                <template #badge>
-                    {{tier.name}}
-                </template>
-            </vs-avatar>
-
-            <h2 v-if="user.display_name" class="text-2xl font-semibold mt-2">{{user.display_name}}</h2>
-            <h2 v-else class="text-2xl font-semibold">{{user.first_name}}</h2>
-            <h2>{{user.email}}</h2>
-        </div>
+        
 
         <v-list expand shaped class="  ">
+<<<<<<< Updated upstream
             <UserMenu-NavbarLink path="/" title="Home" :icon="require('~/static/png/018-pantone.png')"></UserMenu-NavbarLink>
+=======
+            <!-- <UserMenu-NavbarLink path="/" title="Home" :icon="require('~/static/png/018-pantone.png')"></UserMenu-NavbarLink> -->
+>>>>>>> Stashed changes
             <UserMenu-NavbarLink path="/overview" title="Overview" :icon="require('~/static/png/2578759.png')"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/robottrade" title="Robot Trade"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/profittest" title="Profit Test"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/factory" title="Factory"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/refferaly" title="Refferral"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/consult" title="Consult"></UserMenu-NavbarLink>
+<<<<<<< Updated upstream
             <UserMenu-NavbarLink path="/level" title="level"></UserMenu-NavbarLink>
             <UserMenu-NavbarLink path="/setting" title="Setting"></UserMenu-NavbarLink>
+=======
+            <UserMenu-NavbarLink path="/level" title="Level"></UserMenu-NavbarLink>
+            <!-- <UserMenu-NavbarLink path="/setting" title="Setting"></UserMenu-NavbarLink> -->
+>>>>>>> Stashed changes
             <UserMenu-NavbarLink path="/account" title="Account Setting"></UserMenu-NavbarLink>
             <UserMenu-NavMenuSectionTitle title="User Setting"></UserMenu-NavMenuSectionTitle>
             <div @click="logout()">
@@ -125,7 +186,11 @@ export default {
     },
     data() {
         return {
+<<<<<<< Updated upstream
             test:[1,2,3,],
+=======
+            test: [1, 2, 3, ],
+>>>>>>> Stashed changes
             isDrawerOpen: true,
             kyc: {},
             form: {},
